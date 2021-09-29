@@ -1,0 +1,32 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+license="All rights reserved"
+
+[[mods]] 
+modId="dolberhats" 
+version="1.2.2" 
+displayName="Non Craftable Items Become Craftable" 
+logoFile="DragibusMaster.png"
+credits="Thanks to me for making this mod" 
+authors="Love, Cheese and small house plants" 
+description='''
+
+IMPORTANT : Some crafts were not added because it would ruin the game, like adding the Elytra craft, 'cause then it would 
+be pretty useless to go into the end realm to get all of its treasures if you can craft them in the OverWorld.
+I hope you understand; Have a nice day :)
+
+Ever dreamed of crafting an Ender Portal ? This is now possible. So just do it.
+
+'''
+[[dependencies.dolberhats]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36.1.12,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dolberhats]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"

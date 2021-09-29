@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DGD",
+        "DDD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "G": {
+            "item": "minecraft:grass_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:podzol",
+        "count": 1
+    }
+}
